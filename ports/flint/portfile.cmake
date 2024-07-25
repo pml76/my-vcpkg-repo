@@ -10,8 +10,6 @@ vcpkg_find_acquire_program(PYTHON3)
 vcpkg_extract_source_archive(
     SOURCE_PATH
     ARCHIVE ${ARCHIVE}
-    PATCHES
-        fix-cmakelists.patch
 )
 
 vcpkg_cmake_configure(
