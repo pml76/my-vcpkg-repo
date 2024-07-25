@@ -2,8 +2,8 @@
 vcpkg_download_distfile(ARCHIVE
     URLS "http://www.flintlib.org/flint-${VERSION}.zip"
     FILENAME "flint-${VERSION}.zip"
-    SHA512 3dd9a4e79e08ab6bc434a786c8d4398eba6cb04e57bcb8d01677f4912cddf20ed3a971160a3e2d533d9a07b728678b0733cc8315bcb39a3f13475b6efa240062
-)
+    SHA512 9392576de76ec853ccdf51b36802ddb917de4ed9c6e16366c9cf62716ba959da1d844b79aa65e702c6d67cdb1292112deea0e7fb641e10d32020867935fa6c4f
+    )
 
 vcpkg_find_acquire_program(PYTHON3)
 
