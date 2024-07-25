@@ -1,3 +1,8 @@
 {
-    "default": {}
+  "default": {
+    "flint": {
+      "baseline": "3.1.3",
+      "port-version": 0
+    }
+  }
 }
